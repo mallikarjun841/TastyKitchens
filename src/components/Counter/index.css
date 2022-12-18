@@ -1,0 +1,8 @@
+.counter {
+  display: flex;
+}
+.measure {
+  width: 15px;
+  padding-left: 1px;
+  margin: 0px 4px;
+}

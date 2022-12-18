@@ -1,0 +1,40 @@
+.cartimg {
+  width: 150px;
+  height: 70px;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+.g1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.supercontainer {
+}
+
+.cartlist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.ordertotal {
+  font-size: 18px;
+}
+.cartundorder {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dish {
+  display: flex;
+}
+.billcontainer {
+  display: flex;
+  justify-content: space-between;
+}

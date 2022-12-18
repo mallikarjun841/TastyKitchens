@@ -1,0 +1,39 @@
+.footercontainer {
+  background-color: #0f172a;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footlogoimg {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+.footlogo {
+  margin: 13px;
+}
+.smallicon {
+  width: 40px;
+  height: 40px;
+  margin: 0px 12px;
+}
+.footerheading {
+  margin: 0px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+.footerlogocontainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  font-size: 20px;
+}

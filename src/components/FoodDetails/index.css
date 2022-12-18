@@ -1,0 +1,36 @@
+.hotellists {
+  display: flex;
+
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.foodimg {
+  width: 200px;
+  height: 110px;
+}
+.starrating {
+  display: flex;
+  align-items: center;
+}
+.star {
+  color: #ffcc00;
+  font-size: 14px;
+  margin-right: 3px;
+}
+.rupee {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.addbutton {
+  margin: 3px;
+  color: #ffcc00;
+  border: 2px solid #ffcc00;
+  background-color: white;
+  border-radius: 6px;
+}
+.details {
+  margin-left: 7px;
+}

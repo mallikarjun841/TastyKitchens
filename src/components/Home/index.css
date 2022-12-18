@@ -1,0 +1,113 @@
+.homecontainer {
+  height: 100vh;
+}
+.itemcoursel {
+  width: 100%;
+}
+.allrestaurant {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .allrestaurant {
+    margin-right: auto;
+    justify-content: center;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .allrestaurant {
+    width: 80%;
+
+    display: flex;
+
+    align-items: center;
+  }
+}
+.paginationcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selectcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .selectcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.navbutton {
+  width: 20px;
+  height: 20px;
+  padding-left: 1px;
+  margin: 0px 10px;
+}
+.restaurantscontainer {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popularname {
+  margin: 0px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.sort {
+  font-size: 13px;
+  margin-right: 8px;
+  font-weight: 600;
+}
+.sorts {
+  margin-right: 5px;
+}
+.sortcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+@media screen and (max-width: 767px) {
+  .sortcontainer {
+    width: 150px;
+  }
+}
+.populartag {
+  margin: 7px 0px;
+}
+@media screen and (max-width: 767px) {
+  .popularname {
+    font-size: 19px;
+  }
+  .populartag {
+    font-size: 13px;
+  }
+}
+.popularcontainer {
+  width: 80%;
+}
+
+.courselcontainer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+.restaurantunorder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-bottom: 0px;
+}
